@@ -2,12 +2,11 @@
 
 A simple, configurable 4x4 keypad driver library for STM32 microcontrollers using the HAL driver framework.
 
----
-
-## Project Structure
-
 ![Demo GIF](image/demo.gif)
 
+---
+
+## Directory Structure
 
 ```
 STM32_keypad/
@@ -18,16 +17,6 @@ STM32_keypad/
     └── basic.c
 ```
 
----
-
-## Features
-
-- Supports 4x4 matrix keypads
-- Flexible GPIO pin configuration (defined in main program)
-- Uses HAL drivers for maximum portability
-- Simple polling-based scanning with software debounce
-
----
 
 ## Setup Instructions
 
